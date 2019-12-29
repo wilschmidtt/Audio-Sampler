@@ -1,55 +1,87 @@
- # Audio Sampler - MATLAB
-![What](Images/catalog.png)
-![What](Images/Cluster%20of%20Words%20-%20Iteration%201.png)
+# The Fish - Audio Sampler
+![What](Images/The_Fish_AudioSampler.png)
+In this project, I created a basic audio sampler Graphical User Interface. It models some of today’s 
+commercial hardware based audio samplers from companies like Akai, Native Instruments, Roland, etc.
+## Getting Started
 
-## Libraries to Install
-* psycopg2 - DB API 2.0 compliant PostgreSQL driver
-  - `conda install -c anaconda psycopg2`
-* matplotlib - plotting library for NumPy
-  - `conda install -c conda-forge matplotlib`
-* pandas - software library for data manipulation and analysis
-  - `conda install -c anaconda pandas`
-* scikit learn - machine learning library
-  - `conda install -c anaconda scikit-learn`
-* numpy - general-purpose array-processing package
-  - `conda install -c anaconda numpy`
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
-* Anaconda (Python 3.7 Version)
-  - [Anaconda Instillation Instructions](https://docs.anaconda.com/anaconda/install/)
-* UC Davis VPN (optional - used for viewing the wine catalouges)
-  - [VPN - Instillation and Use Instructions](https://www.library.ucdavis.edu/service/connect-from-off-campus/)
-    - VPN can only be installed if you are a UC Davis student/staff
+
+What things you need to install the software and how to install them
+
+```
+Give examples
+```
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+Say what the step will be
+
+```
+Give the example
+```
+
+And repeat
+
+```
+until finished
+```
+
+End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-* Open Anaconda, launch Spyder (used version 3.3.6 to create this program), and run the program. 
-* In the terminal you will see a series of scatter plots titled, 'Cluster of Words', each with a cooresponding iteration, along with a 
-  series of line graphs titled, 'The Elbow Method'. A .png file for each of the scatter plots will automatically be saved to the
-  working directory.
-  - Iteration 0: Scatter plot of all the words that appear on the desired catalog before any manipulation has been done.
-  - Iteration 1: Scatter plot of all the words, except this time they are color coded based off of what cluster they fall into (NOTE:
-    The elbow method was used to determine the optimal number of clusters for each iteration of the data. An image of the line graph
-    used for the elbow method can be seen within the terminal.)
-  - Iteration 2: Each of the clusters from iteration 1 are placed within their own dataframe, and these clusters are then broken up into     their respective ideal number of clusters. The result should be a minimum of four new scatter plots.
-  - Iteration 3 (optional): If you look at the scatter plots and notice that one can still be broken down nicely into groups of 
-    different clusters, then you can enter the name of the cluster in question, and it will be broken down into its constituent sub-
-    clusters. A .png for each of the scatter plots created will be saved within the working directory.
-    - You may re-run iteration 3 on any of the clusters as many times as desired.
-* If you wish to see the actual scan of the catalog in question, the link will automatically be coppied to your clipboard and you can 
-  simply paste to your browser. 
-  - NOTE: The website can only be accessed if you are using a UC Davis VPN
-* This program can be run on each individual catalog. To figure out the ID of the catalog in question, go to line 42 of the program. By 
-  default, you will see that catalog "d7q36x-009" is being used. To run the program using a different catalog, open the dataframe 
-  titled 'page', locate the column titled 'page_ark', and copy/paste any desired ark into line 42, replacing the default ark. 
+Explain how to run the automated tests for this system
+
+### Break down into end to end tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **William Schmidt** - [Wil's LikedIn](https://www.linkedin.com/in/william-schmidt-152431168/)
-* **Isaiah Valencia** - [Isaiah's LikedIn](https://www.linkedin.com/in/isaiah-valencia-4b1531164/)
-* **Christopher Ton** - [Christopher's GitHub](https://github.com/chriztopherton), [Cristopher's LikedIn](https://www.linkedin.com/in/chrton/)
+* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
-* Thank you to UC Davis Data Science Initative for hosting this event!
-  - [Data Science Initiative](http://dsi.ucdavis.edu/)
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
