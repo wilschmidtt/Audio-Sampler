@@ -1,87 +1,18 @@
 # The Fish - Audio Sampler
 ![What](Images/The_Fish_AudioSampler.png)
 In this project, I created a basic audio sampler Graphical User Interface. It models some of today’s 
-commercial hardware based audio samplers from companies like Akai, Native Instruments, Roland, etc.
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
+commercial hardware based audio samplers from companies like Akai, Native Instruments, Roland, etc. The sampler can load up to 12 different songs, play them in any desired order, play a chop of the song, play the song in reverse, remove the voice from the song, speed up/slow down the song, delay the start of the song, and generate either a sin, square, or triangle wave at any desired pitch (for tuning an instrument).
 ### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
+* You will need to have MATLAB installed on your device. For most university students, you can download for free with the following link, and if you are not a university student, you can download a free 30 day trial at this link as well.
+  - [MATLAB Instillation Instructions](https://www.mathworks.com/campaigns/products/trials.highResolutionDisplay.html)
 ## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
+* First, open MATLAB and select the yellow '+' symbol with the word 'New' written under it from the top left part of the ribbon interface. From the drop-down menu, select 'App'. The App Designer will open, and from here, select the 'Open' button and select the Audio Sampler app from the directory that you saved it in. (NOTE: If you rename the app, it cannot contain any spaces, only letters and underscores.)
+* Next, you will need to intstall .wav files onto your computer to use with the audio sampler. I could not upload any of mine to GitHub because they were too big, so you will have to find a way to install you own. The .wav files MUST be saved in the directory as follows: Documents > MATLAB. The audio sampler will not be able to load the songs if they are not saved to this directory.
+* Once the .wav files are installed, you can go back into the App Designer and select the green arrow titled 'Run', located in the ribbon interface. The app will then pop up in a separate window titled 'UI Figure.' The app is now usable. 
+* To use the app, you must first load in anywhere from one to twelve songs. To do so, click on one of the 'load' buttons found beneath the boxes labeled 1-12, and select the desired song to load into this slot. You can do this for just one of the boxes, or for all 12 of the boxes.
+* Once the songs are loaded, click on the box above the load button to play the song in that slot. The play/pause buttons can be used on the song in question, and the stop button will restart the song. 
+* If you would like to use any of the effects on the song, then you can do so simply. Whatever song is playing at the time is the song that will have the effects performed on it. To remove voice, simply click the 'Remove Voice' button. To reverse the song, simply click the 'Reverse Song' button. To play the song at a new speed, drag the slider to the desired speed, then select 'play new speed'. To play a choped portion of the song, enter the time (in seconds) that you wish for the chop to start at, the time (in seconds) that you wish for the chop to stop at, then select 'Play Chop' and that portion of the song will be played. To delay the start of the song, simply enter the time (in seconds) that you wish for the song to be delayed, then press 'Play Delay', and you will hear the song start the user-defined number of seconds later.
+* The pure tone is not an effect that can be used on the songs themselves, it is simply a tool that can be used to tune an instrument. To use this feature, select the desired wave type for the tone from the drop-down menu, enter the frequency that you would like to play the wave at, in Hz, then select 'Play Tone'. 
+* These effects can be used on any of the loaded songs, and new songs can be loaded into any of the boxes at any time. Enjoy!
 ## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* **William Schmidt** - [Wil's LikedIn](https://www.linkedin.com/in/william-schmidt-152431168/)
