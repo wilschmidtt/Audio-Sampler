@@ -1,4 +1,4 @@
-# The Fish - Audio Sampler
+# Audio Sampler
 ![What](Images/AudioSampler_Picture.png)
 In this project, I created a basic audio sampler Graphical User Interface. It models some of today’s 
 commercial hardware based audio samplers from companies like Akai, Native Instruments, Roland, etc. The sampler can load up to 12 different songs at once and play them in any desired order.
