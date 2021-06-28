@@ -1,6 +1,6 @@
 # Audio Sampler
 ![What](Images/AudioSampler_Picture.png)
-In this project, I created a basic audio sampler Graphical User Interface. It models some of today’s 
+Basic audio sampler Graphical User Interface that models some of today’s 
 commercial hardware based audio samplers from companies like Akai, Native Instruments, Roland, etc. The sampler can load up to 12 different songs at once and play them in any desired order.
 
 Some effects included are:
@@ -23,4 +23,4 @@ Some effects included are:
 * The pure tone is not an effect that can be used on the songs themselves, it is simply a tool that can be used to tune an instrument. To use this feature, select the desired wave type for the tone from the drop-down menu, enter the frequency that you would like to play the wave at (in Hz), and then select 'Play Tone'. 
 * These effects can be used on any of the loaded songs, and new songs can be loaded into any of the boxes at any time. 
 ## Authors
-* **William Schmidt** - [Wil's LikedIn](https://www.linkedin.com/in/william-schmidt-152431168/)
+* **William Schmidt** - [Wil's LinkedIn](https://www.linkedin.com/in/william-schmidt-152431168/)
