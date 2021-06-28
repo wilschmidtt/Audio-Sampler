@@ -7,7 +7,7 @@ Some effects included are:
   - Sample Reversal 
   - Chopping
   - Delay
-  - Speed Up/Slow Down
+  - Speed Up/Slow Down 
   - Voice Removal 
   - Pure Tone Generation (Synthesizer)
 ### Prerequisites
